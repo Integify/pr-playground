@@ -24,7 +24,7 @@ main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
   padding: 20px;
   flex: 1;
   min-width: 220px;
-  box-shaddow: 0 1px 3px rgba(101, 45, 144, 0.18);
+  box-shadow: 0 1px 3px rgba(101, 45, 144, 0.18);
 }
 
 .card h3 { color: #652d90; margin-bottom: 8px; }
