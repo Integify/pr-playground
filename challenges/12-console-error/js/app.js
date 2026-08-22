@@ -1,2 +1,2 @@
-const heading = document.querySelector(".titel");
+const heading = document.querySelector(".title");
 heading.textContent = "Welcome to Integify";
