@@ -1,4 +1,4 @@
-const button = document.getElementById("clickButton");
+const button = document.getElementById("clickMe");
 const message = document.getElementById("message");
 
 let count = 0;
