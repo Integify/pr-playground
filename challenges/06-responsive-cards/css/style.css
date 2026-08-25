@@ -23,7 +23,7 @@ main {
 .cards {
   display: flex;
   gap: 20px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -37,4 +37,14 @@ main {
 .card h3 {
   color: #652d90;
   margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    flex: 1 1 auto;
+  }
 }
